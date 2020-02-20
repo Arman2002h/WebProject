@@ -36,7 +36,7 @@ fs.readFile('combinations.txt', 'utf8', function (err, data) {
     });
     fs.writeFileSync("result.json", JSON.stringify(winners))
     winners.forEach(el => {
-        //console.log(el.gamers_cart,el.winer)
+        console.log(el.gamers_cart,el.winer)
     });
     console.log(`Player1 1 win -> ${winPlayer1}`)
 });
