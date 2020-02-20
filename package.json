@@ -1,0 +1,14 @@
+{
+  "name": "node.pocker_prarsser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Arman Harutyunyan",
+  "license": "ISC",
+  "dependencies": {
+    "pokersolver": "^2.1.3"
+  }
+}
